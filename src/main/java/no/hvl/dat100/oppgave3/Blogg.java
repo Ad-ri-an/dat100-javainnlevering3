@@ -16,10 +16,16 @@ public class Blogg {
 	}
 
 	public int getAntall() {
+
+
+
 		throw new UnsupportedOperationException(TODO.method());
 	}
 	
 	public Innlegg[] getSamling() {
+
+
+
 		throw new UnsupportedOperationException(TODO.method());
 
 	}

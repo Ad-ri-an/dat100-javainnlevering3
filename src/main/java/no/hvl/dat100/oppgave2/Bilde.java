@@ -11,7 +11,7 @@ public class Bilde extends Tekst {
         super(id, bruker, dato, tekst);
         this.url = url;
 
-		throw new UnsupportedOperationException(TODO.constructor("Bilde"));
+		//throw new UnsupportedOperationException(TODO.constructor("Bilde"));
 	}
 
 	public Bilde(int id, String bruker, String dato, int likes, String tekst, String url) {
@@ -19,21 +19,21 @@ public class Bilde extends Tekst {
         super(id, bruker, dato, likes, tekst);
         this.url = url;
 
-		throw new UnsupportedOperationException(TODO.constructor("Bilde"));
+		//throw new UnsupportedOperationException(TODO.constructor("Bilde"));
 	}
 	
 	public String getUrl() {
 
         return url;
 
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 
 	public void setUrl(String url) {
 
         this.url = url;
 
-        throw new UnsupportedOperationException(TODO.method());
+        //throw new UnsupportedOperationException(TODO.method());
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class Bilde extends Tekst {
                 getTekst() + "\n" +
                 url + "\n";
 
-        throw new UnsupportedOperationException(TODO.method ());
+        //throw new UnsupportedOperationException(TODO.method ());
 	}
 
 	// Metoden nedenfor er kun for valgfri oppgave 6

@@ -17,7 +17,7 @@ public abstract class Innlegg {
 
 		this(id, bruker, dato, 0);
 
-		throw new UnsupportedOperationException(TODO.constructor("Innlegg"));
+		//throw new UnsupportedOperationException(TODO.constructor("Innlegg"));
 	}
 
 	public Innlegg(int id, String bruker, String dato, int likes) {
@@ -27,70 +27,70 @@ public abstract class Innlegg {
         this.dato = dato;
         this.likes = likes;
 		
-		throw new UnsupportedOperationException(TODO.constructor("Innlegg"));
+		//throw new UnsupportedOperationException(TODO.constructor("Innlegg"));
 	}
 	
 	public String getBruker() {
 
         return bruker;
 
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 
 	public void setBruker(String bruker) {
 
         this.bruker = bruker;
 
-        throw new UnsupportedOperationException(TODO.method());
+        //throw new UnsupportedOperationException(TODO.method());
 	}
 
 	public String getDato() {
 
         return dato;
 
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 
 	public void setDato(String dato) {
 
         this.dato = dato;
 
-        throw new UnsupportedOperationException(TODO.method());
+        //throw new UnsupportedOperationException(TODO.method());
 	}
 
 	public int getId() {
 
         return id;
 
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 
     public void setId(){
 
         this.id = id;
 
-        throw new UnsupportedOperationException(TODO.method());
+        //throw new UnsupportedOperationException(TODO.method());
     }
 
 	public int getLikes() {
 
         return likes;
 
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 	
 	public void doLike () {
 
         likes++;
 
-        throw new UnsupportedOperationException(TODO.method());
+        //throw new UnsupportedOperationException(TODO.method());
 	}
 	
 	public boolean erLik(Innlegg innlegg) {
 
         return this.id == innlegg.getId();
 
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 	
 	@Override
@@ -98,7 +98,7 @@ public abstract class Innlegg {
 
         return id + "\n" + bruker + "\n" + dato + "\n" + likes + "\n";
 
-		throw new UnsupportedOperationException(TODO.method());
+		//throw new UnsupportedOperationException(TODO.method());
 	}
 	
 	// Metoden nedenfor er kun for valgfri oppgave 6
