@@ -54,9 +54,7 @@ public class Bilde extends Tekst {
 	public String toHTML() {
 
         return super.toHTML() +
-                "\t\t<p>" + getTekst() + "<p>\n" +
-                "\t\t<iframe src=\"" + getUrl() + "\" height=600 width=800></iframe>\n" +
-                "\t\t<hr>\n";
+                "<iframe src=\"" + getUrl() + "\" height=600 width=800></iframe><hr>\n";
 		//throw new UnsupportedOperationException(TODO.method());
 	}
 }
